@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" id="cordova-plugin-youtube-video-player" version="2.4.0">
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" id="cordova-plugin-youtube-video-player" version="2.4.1">
 
     <name>CordovaYoutubeVideoPlayer</name>
 
@@ -56,8 +56,15 @@
                 </feature>
             </config-file>
 
-            
-            <framework src="XCDYouTubeKit" type="podspec" spec="~> 2.7" />
+            <podspec>
+                <config>
+                    <source url="https://github.com/CocoaPods/Specs.git"/>
+                </config>
+                <pods use-frameworks="true">
+                    <pod name="XCDYouTubeKit" git="https://github.com/armendh/XCDYouTubeKit.git" branch="patch-2"/>
+                </pods>
+            </podspec>
+
             <header-file src="platforms/ios/YoutubeVideoPlayerProject/Plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.h"/>
             <source-file src="platforms/ios/YoutubeVideoPlayerProject/Plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.m"/>
 
