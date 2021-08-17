@@ -29,7 +29,7 @@ cordova plugin add https://github.com/JonSmart/CordovaYoutubeVideoPlayer
 YoutubeVideoPlayer.openVideo('YOUTUBE_VIDEO_ID', function(result) { console.log('YoutubeVideoPlayer result = ' + result); });
 ```
 
-For Android 5.0+ you will need to add the following to config.xml
+For Android 5.0+ and iOS you will need to add the following to config.xml
 
 ```xml
 <preference name="YouTubeDataApiKey" value="[YOUR YOUTUBE API]" />
