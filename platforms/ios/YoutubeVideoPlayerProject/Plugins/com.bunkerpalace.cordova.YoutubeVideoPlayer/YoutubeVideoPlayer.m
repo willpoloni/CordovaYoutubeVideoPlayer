@@ -6,7 +6,7 @@
 //
 
 #import "YoutubeVideoPlayer.h"
-#import "XCDYouTubeKit.h"
+#import <XCDYouTubeKit/XCDYouTubeKit.h>
 #import <AVKit/AVKit.h>
 #import <Cordova/NSDictionary+CordovaPreferences.h>
 
