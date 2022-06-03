@@ -1,3 +1,7 @@
+Merge:
+https://github.com/ihadeed/CordovaYoutubeVideoPlayer/pull/21
+https://github.com/ihadeed/CordovaYoutubeVideoPlayer/pull/19
+
 #Cordova YoutubeVideoPlayer Plugin
 
 **Play Youtube Videos in a native Video Player on Android &amp; iOS.**
